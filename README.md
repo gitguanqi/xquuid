@@ -94,6 +94,23 @@ console.log('64 to 10 is:', num4);
 // 64 to 10 is: 2310182
 ```
 
++ base64 encryption
+
+```js
+var str ='Encrypted content';
+var str1 = new xquuid.Base64().encode(str);
+console.log('encryption text:', str1);
+// encryption text: 5Yqg5a+G5YaF5a65
+```
+
++ base64 decryption
+
+```js
+var str2 = new xquuid.Base64().decode(str1);
+console.log('Decrypt text:', str2);
+// Decrypt text: encrypted content
+```
+
 ## View example
 
 Run this script to view the demonstration case: `npm run demo`

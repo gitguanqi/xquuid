@@ -27,3 +27,10 @@ console.log('10 to 64 is : ', num3);
 
 const num4 = xquuid.str64To10(num3);
 console.log('64 to 10 is:  ', num4);
+
+var str = '加密内容';
+var str1 = new xquuid.Base64().encode(str);  
+console.log('encryption text:  ', str1);
+
+var str2 = new xquuid.Base64().decode(str1);  
+console.log('Decrypt text:  ', str2);

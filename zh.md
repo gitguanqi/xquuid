@@ -94,6 +94,23 @@ console.log('64 to 10 is:  ', num4);
 // 64 to 10 is:   2310182
 ```
 
++ base64加密
+
+```js
+var str = '加密内容';
+var str1 = new xquuid.Base64().encode(str);  
+console.log('encryption text:  ', str1);
+// encryption text:   5Yqg5a+G5YaF5a65
+```
+
++ base64解密
+
+```js
+var str2 = new xquuid.Base64().decode(str1);  
+console.log('Decrypt text:  ', str2);
+// Decrypt text:   加密内容
+```
+
 ## 查看示例
 
 运行这个脚本查看展示案例：`npm run demo`

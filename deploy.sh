@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: xgfed
+# author: gitguanqi
 # date: 2022.09.29
 # des: this is a auto submit shell script.
 

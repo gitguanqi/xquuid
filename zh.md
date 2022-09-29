@@ -4,17 +4,32 @@
 
 [查看英文文档](./README.md)
 
-## 使用方法
+## 安装
 
-### 安装xquuid
+**游览器端**:
+
+引入cdn
+
+```html
+<!-- 游览器es5 -->
+<script src="../lib/xquuid.min.js"></script>
+<!-- es6模块 -->
+<script type="module">
+    import xquuid from '../lib/xquuid-esm.min.js';
+</script>
+```
+
+**Node**:
 
 ```sh
 $ npm install xquuid
 ```
 
-### 引入xquuid
-
+```js
 const xqsql = require('xquuid');
+```
+
+## 使用
 
 + 创建随机数
 
@@ -113,7 +128,7 @@ console.log('Decrypt text:  ', str2);
 
 ## 查看示例
 
-运行这个脚本查看展示案例：`npm run demo`
+运行这个脚本查看展示案例：`npm run test:node`, `npm run test:browser`。
 
 ## 提问题
 

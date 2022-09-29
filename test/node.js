@@ -1,4 +1,4 @@
-const xquuid = require('../index');
+const xquuid = require('../lib/xquuid');
 
 // 
 const rid = xquuid.randomId();

@@ -4,17 +4,32 @@ This is a toolkit that automatically generates uuid.
 
 [View Chinese documents](./zh.md)
 
-## Instructions
+## Install
 
-### Install xquuid
+**Browser**:
+
+import cdn
+
+```html
+<!-- Browser -->
+<script src="../lib/xquuid.min.js"></script>
+<!-- es module -->
+<script type="module">
+    import xquuid from '../lib/xquuid-esm.min.js';
+</script>
+```
+
+**Node**:
 
 ```sh
 $ npm install xquuid
 ```
 
-### Introducing xquuid
-
+```js
 const xqsql = require('xquuid');
+```
+
+## Usage
 
 + Create random number
 
@@ -113,7 +128,7 @@ console.log('Decrypt text:', str2);
 
 ## View example
 
-Run this script to view the demonstration case: `npm run demo`
+Run this script to view the demonstration case: `npm run test:node`, `npm run test:browser`.
 
 ## ask questions
 

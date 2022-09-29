@@ -1,6 +1,6 @@
 {
   "name": "xquuid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This is a toolkit that automatically generates uuid",
   "main": "lib/xquuid.js",
   "directories": {

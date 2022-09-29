@@ -132,7 +132,7 @@ console.log('Decrypt text:  ', str2);
 
 ## 提问题
 
-[submit your question](https://github.com/gitguanqi/xquuid/issues/new)
+[提交问题](https://github.com/gitguanqi/xquuid/issues/new)
 
 ## 作者
 

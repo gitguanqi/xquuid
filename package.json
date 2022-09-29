@@ -1,6 +1,6 @@
 {
   "name": "xquuid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is a toolkit that automatically generates uuid",
   "main": "lib/xquuid.js",
   "directories": {
@@ -21,7 +21,7 @@
     "xquuid"
   ],
   "author": "gitguanqi",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gitguanqi/xquuid/issues"
   },

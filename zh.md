@@ -22,7 +22,7 @@
 **Node**:
 
 ```sh
-$ npm install xquuid
+npm install xquuid
 ```
 
 ```js
